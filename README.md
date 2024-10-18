@@ -24,7 +24,29 @@ My team and I utilized QuickDB to design a relational database tailored for stor
   processing.
 
 ## Usage
-To use this ETL project, start by ensuring you have Python installed, along with the necessary libraries. Install the required dependencies, including pandas for data manipulation and openpyxl for handling Excel files, using the following command: pip install pandas openpyxl. Next, ensure all datasets (campaign.csv, category.csv, subcategory.csv, crowdfunding.xlsx, and optionally contacts.csv) are placed in the same directory as the Jupyter notebook, or modify the file paths in the code accordingly.  Once your environment is set up, open the Jupyter notebook by running jupyter notebook in your terminal and navigate to the notebook file (ETL_Mini_Project.ipynb). Execute the cells in the notebook sequentially to walk through the ETL process. The notebook will extract data from the CSV and Excel files, clean and transform the data to ensure consistency, and finally load the cleaned data into a structured format for analysis. After the notebook finishes running, you can inspect the processed data, which will be saved as a new CSV or Excel file, ready for further analysis or visualization.  This process allows you to integrate and transform crowdfunding data, making it easy to analyze and draw insights from.
+Environment Setup:
+- Ensure you have Python installed.
+- Install the required libraries:
+``bash
+pip install pandas
+pip install openpyxl
+``
+Prepare Datasets:
+- Place the following datasets in the same directory as your Jupyter notebook:
+    -> campaign.csv
+    -> category.csv
+    -> subcategory.csv
+    -> crowdfunding.xlsx
+    -> contacts.csv
+- Alternatively, modify the file paths in the code accordingly.
+Start Jupyter Notebook by running:
+``bash
+jupyter notebook
+``
+- Navigate to ETL_Mini_Project.ipynb and execute the cells sequentially.
+ETL Process:
+The notebook will extract data from the CSV and Excel files, clean and transform the data for consistency, and load the cleaned data into a structured format.
+After running the notebook, inspect the processed data, which will be saved as a new CSV or Excel file for further analysis or visualization.
 
 ## Contributers
 - M. Sahane
