@@ -35,10 +35,15 @@ Prepare Datasets:
 - Place the following datasets in the same directory as your Jupyter notebook:
 
     -> campaign.csv
+  
     -> category.csv
+  
     -> subcategory.csv
+  
     -> crowdfunding.xlsx
+  
     -> contacts.csv
+  
 - Alternatively, modify the file paths in the code accordingly.
 Start Jupyter Notebook by running:
 ```bash
