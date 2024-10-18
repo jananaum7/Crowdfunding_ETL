@@ -12,6 +12,7 @@ In this project, my team and I developed an ETL (Extract, Transform, Load) pipel
 
 ## ERD
 ![image](https://github.com/user-attachments/assets/b8474333-ece9-4da4-9e3e-fcd44ba4702f) 
+
 My team and I utilized QuickDB to design a relational database tailored for storing and managing crowdfunding data. The schema consists of four primary tables: `contacts`, `campaign`, `category`, and `subcategory`. Each campaign is associated with its organizer (contacts) and categorized into distinct categories and subcategories. This structured approach ensures efficient data organization and facilitates seamless retrieval for analysis.
 
 ## Installation
