@@ -27,10 +27,10 @@ My team and I utilized QuickDB to design a relational database tailored for stor
 Environment Setup:
 - Ensure you have Python installed.
 - Install the required libraries:
-``bash
+```bash
 pip install pandas
 pip install openpyxl
-``
+```
 Prepare Datasets:
 - Place the following datasets in the same directory as your Jupyter notebook:
     -> campaign.csv
@@ -40,9 +40,10 @@ Prepare Datasets:
     -> contacts.csv
 - Alternatively, modify the file paths in the code accordingly.
 Start Jupyter Notebook by running:
-``bash
+```bash
 jupyter notebook
-``
+```
+- Or in our case, we opened it with Visuual Studio Code.
 - Navigate to ETL_Mini_Project.ipynb and execute the cells sequentially.
 ETL Process:
 The notebook will extract data from the CSV and Excel files, clean and transform the data for consistency, and load the cleaned data into a structured format.
