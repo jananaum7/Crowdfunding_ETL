@@ -1,11 +1,11 @@
 # Crowdfunding_ETL
 
 ## Table of Contents
-- [Introduction]
-- [ERD]
-- [Installation]
-- [Usage]
-- [Contributers]
+- [Introduction](#introduction)
+- [ERD](#erd)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributers](#contributers)
 
 ## Introduction
 In this project, my team and I developed an ETL (Extract, Transform, Load) pipeline to process and analyze crowdfunding data from multiple sources. Using Python, we collaboratively extracted data from CSV and Excel files containing information about crowdfunding campaigns, categories, subcategories, and contacts. We transformed the data by cleaning, standardizing, and merging datasets while addressing missing values. This ensured consistency and improved data quality for subsequent analysis. Finally, we loaded the transformed data into a structured format, making it ready for further analysis and insights. This project highlights our collective ability to build an ETL pipeline, manage data from various sources, and prepare it for meaningful analysis.
